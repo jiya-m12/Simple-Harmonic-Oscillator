@@ -89,4 +89,5 @@ python3 quantum.py
 
 - Tao Xin et al. (2020). *Quantum algorithm for solving linear differential equations: Theory and experiment* [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032307)
 - [Classiq Platform](https://www.classiq.io/)
-- [Q-volution Hackathon 2026 — Girls in Quantum](https://girlsinquantum.com/)
+- [Girls in Quantum](https://girlsinquantum.com/)
+- [Aqora, Q-volution Hackathon 2026 - Track C Harmonic oscillator](https://aqora.io/competitions/solving-linear-differential-equatio)
