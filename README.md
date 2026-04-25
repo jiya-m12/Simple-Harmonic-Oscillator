@@ -1,6 +1,6 @@
 # Quantum Algorithm for the Simple Harmonic Oscillator
 
-**Team Entangled Ancillas** — Q-volution Hackathon 2026 (Girls in Quantum) · Track C: Harmonic Oscillator
+**Team: The Entangled Ancillas** - Q-volution Hackathon 2026 (Girls in Quantum) · Track C: Harmonic Oscillator
 
 ---
 
@@ -41,11 +41,11 @@ We also traced the same mathematical structure to broader real-world application
 | Method | What it does |
 |---|---|
 | `energy_analysis` | Computes kinetic and potential energy over time and verifies conservation |
-| `bound_analysis` | Analyzes how boundary conditions affect the simulation |
-| `k_analysis` | Examines accuracy as a function of the LCU parameter *k* |
+| `bound_analysis` | Examines how the state preparation approximation bound affects simulation error |
+| `k_analysis` | Examines how Taylor truncation order k affects both accuracy and circuit resources (depth and qubits) |
 | `n_shots_analysis` | Studies how the number of measurement shots affects results |
 
-> ⚠️ Each method can take a few minutes to run. They are **commented out by default** — uncomment and run one at a time.
+> ⚠️ Each method can take a few minutes to run. They are **commented out by default**, uncomment and run one at a time.
 
 ---
 
@@ -87,6 +87,6 @@ python3 quantum.py
 
 ## References
 
-- Tao Xin et al. (2020). *Quantum algorithm for solving linear differential equations: Theory and experiment*(https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032307)
+- Tao Xin et al. (2020). *Quantum algorithm for solving linear differential equations: Theory and experiment* [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032307)
 - [Classiq Platform](https://www.classiq.io/)
 - [Q-volution Hackathon 2026 — Girls in Quantum](https://girlsinquantum.com/)
